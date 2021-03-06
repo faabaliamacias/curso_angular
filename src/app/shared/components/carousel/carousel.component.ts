@@ -49,7 +49,7 @@ export class CarouselComponent implements OnInit {
   }
 
   setBack() {
-    let finalPercentage = 0;
+    let finalPercentage: number;
     let backPosition = this.currentPosition - 1;
     if (backPosition >= 0) {
       finalPercentage = -100 * backPosition;
